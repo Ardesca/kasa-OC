@@ -1,0 +1,30 @@
+.liste-logements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 80%;
+    border-radius: 25px;
+}
+.houseLists {
+    display: flex;
+    width: 29%;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease-in;
+}
+
+@media screen and (max-width: 1000px) {
+    .houseLists {    
+        width: 100%;
+        height: 255px;     
+    }
+    .liste-logements{
+        background: none;
+    }
+}
