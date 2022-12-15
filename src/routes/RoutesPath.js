@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "../header-footer/Layout";
 import Home from "../pages/Home";
-import About from "../pages/About"
+import About from "../pages/About";
 import Habitation from '../pages/Habitation';
 import Erreur404 from "../pages/Erreur404";
 

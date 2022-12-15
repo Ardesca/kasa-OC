@@ -10,7 +10,6 @@
 .banner-img {
   width: 100%;
   height: auto;
-
   filter: brightness(0.7);
   border-radius: 25px;
 }

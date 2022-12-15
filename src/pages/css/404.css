@@ -1,5 +1,8 @@
 .page-404 {
-    text-align: center
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    height: 60vh;
   }
   
   .titre-404 {
